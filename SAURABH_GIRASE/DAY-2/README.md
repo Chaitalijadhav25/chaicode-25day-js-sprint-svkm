@@ -36,3 +36,5 @@ let str = "123";
 let num = Number(str);
 console.log(num); // 123 (number)
 ```
+
+[25_day_javascript_challange/README.md](../README.md)    
