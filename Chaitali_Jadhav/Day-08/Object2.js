@@ -58,4 +58,31 @@ console.log(Object.entries(tinderUser))
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); //checks 
 console.log(tinderUser.valueOf());
 
+const course = {
+    coursename : "js in hindi",
+    price :"999",
+    courseInstructor : "hitesh"
+}
+
+// course.courseInstructor
+// Accessing object property
+// const {courseInstructor} = course
+const {courseInstructor : Instructor} = course   //destructure 
+
+console.log(Instructor);
+
+// APIs
+//JSON format
+
+// {
+//     "name" : "hitesh",
+//     "coursename" : "js in hindi",
+//     "price"  : "free"
+// }
+
+{
+    {},
+    {},
+    {}
+}
 
